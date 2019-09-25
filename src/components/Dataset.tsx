@@ -12,7 +12,7 @@ export default class DataSet extends React.PureComponent<DataViewProps>{
     return (transformation &&
             transformedValue &&
             transformation.targetProperty === propertyName) ?
-            transformedValue : value;
+            (<span className="highlight">{transformedValue}</span>) : value;
   }
 
   render() {
