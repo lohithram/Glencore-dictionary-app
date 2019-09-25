@@ -1,0 +1,25 @@
+.DictionaryView {
+  padding: 0.5rem 2rem;
+
+  &-heading {
+    .btn {
+      margin-left: 1rem;
+    }
+  }
+
+  .table {
+    margin-top: 1rem;
+  }
+
+  &-Actions {
+    margin-left: 0;
+  }
+
+  .form {
+    &-error,
+    &-field-error {
+      padding-left: 1rem;
+      font-weight: bold;
+    }
+  }
+}
