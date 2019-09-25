@@ -1,6 +1,6 @@
 # Note:
 #### 1. I have used redux-form for user input capture and validation. Dictionary creation and management is handled by the DictionaryView component.
-####  2. I have created 1 test class for each type. For example one for View component, action creator, reducer to demonstrate how to Unit test each type of them.
+####  2. I have created 1 test class for each type. For example one for View component, Action creator, Reducer and Form validation to demonstrate how to Unit test each type of them.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
