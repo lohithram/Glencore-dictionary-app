@@ -1,6 +1,7 @@
 # Note:
-#### 1. I have used redux-form for user input capture and validation. Dictionary creation and management is handled by the DictionaryView component.
-####  2. I have created 1 test class for each type. For example one for View component, Action creator, Reducer and Form validation to demonstrate how to Unit test each type of them.
+#### 1. My approach - I store the original data set and the list of dictionaries in the redux store. The transformed data is not stored as state. When you apply a dictionary to the product data set the transformation happens on the fly(see Dataset.tsx selector). I took this approach with a view that there is no need to persist transformed data set and hence displaying transformed data set is purely the concern of presentation layer.
+#### 2. I have used redux-form for user input capture and validation. Dictionary creation and management is handled by the DictionaryView component.
+#### 3. I have created 1 test class for each type. For example one for View component, Action creator, Reducer and Form validation to demonstrate how to Unit test each type of them.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
